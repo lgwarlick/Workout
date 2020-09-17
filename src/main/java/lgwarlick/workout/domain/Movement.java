@@ -12,4 +12,5 @@ import lombok.Setter;
 public class Movement extends BaseEntity{
     private String name;
     private String unitOfMeasure;
+    private String url;
 }
