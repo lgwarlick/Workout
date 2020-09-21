@@ -1,5 +1,5 @@
 package lgwarlick.workout.domain;
 
-public class Category extends BaseEntity{
+public class MovementCategory extends BaseEntity{
     private String categoryType;
 }

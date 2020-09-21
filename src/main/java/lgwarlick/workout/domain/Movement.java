@@ -11,6 +11,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Movement extends BaseEntity{
     private String name;
-    private String unitOfMeasure;
+    private UoM unitOfMeasure;
+    private MovementCategory category;
     private String url;
 }
